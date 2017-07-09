@@ -1,6 +1,6 @@
 # async-queue-processor
 
-This package allows to process a queue with the following caracteristcs:
+This package allows to process a queue with the following characteristcs:
 - define what criteria you want to use to create you queue
 - define how you want to process the queue items
 - define how many simultaneous executions you want to allow
