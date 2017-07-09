@@ -1,6 +1,10 @@
 # async-queue-processor
 
 This package allows to process a queue with the following caracteristcs:
+- define what criteria you want to use to create you queue
+- define how you want to process the queue items
+- define how many simultaneous executions you want to allow
+- define time to wait before next check when there is no more data to be processed
 
 ## Installing
 async-queue-processor is available on npm. To install it, type:
