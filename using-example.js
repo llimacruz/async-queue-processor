@@ -13,11 +13,24 @@ function whatProcess(callback) {
     teste++;
     callback(null, items || []);
 }
+function myWhatProcess(callback) {
+    var items = []
+    for(var i=0; i<100; i++) {
+        items.push(i);
+    }
+    callback(null, items || []);
+}
 function howProcess(item, callback) {
     setTimeout(()=> {
         console.log('do something with the item ', item)
         callback(null);
     }, 20)
+}
+function myHowProcess(item, callback) {
+    setTimeout(()=> {
+        console.log('do something with the item ', item)
+        callback(null);
+    }, 1000)
 }
 
 var parallelCount = 2;

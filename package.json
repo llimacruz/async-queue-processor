@@ -1,6 +1,6 @@
 {
   "name": "async-queue-processor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Feed and consume a list asyncronously",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,10 @@
   },
   "author": "llimacruz",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/llimacruz/async-queue-processor"
+  },
   "dependencies": {
     "async": "^2.4.1"
   }
