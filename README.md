@@ -19,7 +19,7 @@ then require it in your js script:
 ## Sintax
 The sintax to use async-queue-processor is:
 
-` queue.initProcess(whatProcess, howProcess, parallelCount, waitTime *[, silent]*)`
+` queue.initProcess(whatProcess, howProcess, parallelCount, waitTime [, silent])`
 
 where the arguments are:
 - whatProcess: Async function that returns the content to be processed. Must return a callback(err, content).
